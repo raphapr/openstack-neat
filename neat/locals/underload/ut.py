@@ -39,5 +39,3 @@ def compute_ut(vms_cpu, vms_ram):
             vm_candidate = vm
         last_vm = vm
     return vm_candidate
-
-print compute_ut(vmss_cpu, vmss_ram)
